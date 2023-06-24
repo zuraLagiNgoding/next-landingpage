@@ -2,17 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+* {
   scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
 }
 
-.custom-img {
-  background-image: url('../public/robert-richarz-fVsPF_SNIS4-unsplash.jpg');
+html {
+  scroll-behavior: smooth;
+
 }
 
-.slider-img {
-  width: 1440px;
-  height: 600px;
-  object-fit: cover;
+.image-class { 
+  width: 100%; 
+  height: auto; 
+
+}
+
+.custom-img {
+  background-image: url('../public/robert-richarz-fVsPF_SNIS4-unsplash.jpg');
 }
